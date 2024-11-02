@@ -14,6 +14,7 @@ function App(){
   return(
     <>
     <h1>ItemsCart</h1>
+    <h2>Welcome Habibi</h2>
     <p>Veg Items are: </p>
     {vegItems.length>0 ? <ul style={{color:'green'}}>{vegItems}</ul> : <ul>Veg Items no longer available</ul>}
     <p>Non Veg Items are: </p>
